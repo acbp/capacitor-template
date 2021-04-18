@@ -1,6 +1,7 @@
 {
 	"scripts": {
-        "setup": "rimraf android electron && npx cap add android && npx cap add @capacitor-community/electron && git checkout -- .",
+        "presetup": "rimraf android electron", 
+        "setup": "npx cap add android | npx cap add @capacitor-community/electron && git checkout -- .",
         "build": "cd projeto && npm run build && cd ..",
 		"cap": "npx cap sync",
 		"open": "npx cap open",
