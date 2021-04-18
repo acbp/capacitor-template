@@ -4,3 +4,4 @@ node_modules
 /electron
 /android
 *.js
+*.json
