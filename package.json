@@ -1,7 +1,15 @@
 {
-  "devDependencies": {
-    "@capacitor-community/electron": "^1.4.0",
-    "@capacitor/cli": "^2.4.7",
-    "@capacitor/core": "^2.4.7"
-  }
+	"scripts": {
+        "build": "cd projeto && npm run build && cd ..",
+		"cap": "npx cap sync",
+		"open": "npx cap open",
+		"android": "npx cap open android",
+		"electron": "npx cap open electron"
+	},
+	"devDependencies": {
+		"@capacitor-community/electron": "^1.4.0",
+		"@capacitor/android": "^2.4.7",
+		"@capacitor/cli": "^2.4.7",
+		"@capacitor/core": "^2.4.7"
+	}
 }
