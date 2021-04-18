@@ -1,8 +1,5 @@
 .DS_Store
 node_modules
-/.svelte
-/build
-/functions
-/public
+/projeto
 /electron
 /android
