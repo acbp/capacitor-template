@@ -6,6 +6,8 @@
 		"posbuild": "npx run cap",
 		"cap": "npx cap sync",
 		"open": "npx cap open",
+		"preandroid": "npm run build && npx cap sync",
+		"preelectron": "npm run build && npx cap sync",
 		"android": "npx cap open android",
 		"electron": "npx cap open electron"
 	},
